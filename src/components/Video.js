@@ -20,14 +20,18 @@ export default class Video extends Component {
   render() {
     return (
       <div className='super-video-wrapper'>
-        {this.state.videoId && <YouTube
+        {this.state.videoId?
+          [<YouTube
           videoId={this.state.videoId} // defaults -> null
           id={"super-video"} // defaults -> null
           className={"super-video"} // defaults -> null
-        />}
-        <div className='super-name'>
+        />,<div className='super-name'>
           {this.props.match.params.search_query}
-        </div>
+        </div>]:
+        <div className='loader'>Fetching Video data .....</div>
+
+      }
+
       </div>
     );
   }
