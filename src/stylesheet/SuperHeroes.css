@@ -1,0 +1,73 @@
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 3rem;
+}
+
+.super-details {
+  font-size: 2rem;
+  color: white;
+}
+
+.super-details input:first-child{
+  height: 5rem;
+  margin: 2rem;
+  padding-left: 1rem;
+  font-size: 2.5rem;
+  max-width: 100%;
+  border-radius: 5px;
+}
+.super-details input::placeholder{
+  font-size: 2.5rem;
+  padding-left: 1rem;
+}
+
+.attributes-container {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #c8b38d;
+}
+
+.superHero {
+  font-size: 2rem;
+}
+
+.hero-name {
+  font-size: 6rem;
+  margin-bottom: 3rem;
+  color: darkblue;
+}
+.hero-name img {
+  width: 10rem;
+  margin-right: 2rem;
+}
+
+.get-info {
+  cursor: pointer;
+  display: inline-block;
+  padding: 1rem 3rem;
+  background-color: #b18888;
+  border-radius: 5px;
+  float: right;
+  letter-spacing: 1px;
+}
+
+.attr-section {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.attr-section .attr-name {
+  margin-right: 2rem;
+  float: left;
+  width: 15%;
+  color: black;
+}
+
+.attr-section .attr-value {
+  float: left;
+  width: 80%;
+}

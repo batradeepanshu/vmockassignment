@@ -1,0 +1,24 @@
+html{
+  font-size: 70%;
+}
+  body {
+  background-color: #4B5165;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.clearfix::after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.vertically-center {
+    top: 50%;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

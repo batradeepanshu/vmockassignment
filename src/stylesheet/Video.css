@@ -1,0 +1,13 @@
+.super-video-wrapper{
+    text-align: center;
+    margin: 3rem;
+  }
+.super-video{
+  width: 50%;
+  /*height: 5rem;*/
+}
+
+.super-video-wrapper .super-name{
+  font-size: 5rem;
+  margin-top: 2rem;
+}

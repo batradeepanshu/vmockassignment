@@ -1,0 +1,27 @@
+
+.super-wrapper{
+  padding: 2rem;
+  text-align: center;
+
+}
+.super-wrapper .main-head{
+  font-size: 5rem;
+  color: white;
+}
+.super-wrapper ul {
+  text-align: left;
+  font-size: 2rem;
+  color: white;
+  line-height: 4rem;
+}
+.super-wrapper a{
+  color: #37CAA6;
+  color: white;
+  background-color: #37CAA6;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 2rem;
+  letter-spacing: 2px;
+}
