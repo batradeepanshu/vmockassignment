@@ -1,0 +1,36 @@
+
+.user-info-wrapper {
+  margin: 30px;
+}
+.user-info-wrapper input{
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  padding-left: 10px;
+
+  margin-bottom: 20px;
+}
+.user-info-wrapper .user-container{
+  margin-bottom: 20px;
+}
+.user-info-wrapper .user-container img{
+width: 100px;
+height: 100px;
+float: left;
+margin-right: 20px;
+}
+
+.user-info-wrapper .user-container .user-name{
+font-size: 25px;
+float: left;
+}
+.get-info-button{
+  background-color: #3b3939;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;right: 50px;
+}

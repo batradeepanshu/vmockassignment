@@ -1,0 +1,41 @@
+.repo-container{
+  border:1px solid black;
+  padding: 20px;
+  margin: 10px;
+  float: left;
+  width: 70%;
+}
+.repo-container .repo-name{
+  color: green;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.repo-container .repo-details{
+color:black;
+  font-size: 20px;
+}
+.user-repo-wrapper img{
+  width: 200px;
+  height: 200px;
+
+}
+.user-repo-wrapper{
+  margin: 30px;
+}
+
+.user-repo-wrapper .left-container{
+  padding: 20px 0 0 20px;
+  float: left;
+  margin-right: 30px;
+  /*width: 20%;*/
+}
+
+.user-repo-wrapper .left-container .owner-name{
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+.user-repo-wrapper .right-container{
+  float: left;
+  width: 80%;
+}
