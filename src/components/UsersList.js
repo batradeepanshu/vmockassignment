@@ -8,8 +8,6 @@ import {fetchGitHubUsersData} from '../actions/userActions';
 import Loader from './Loader';
 import '../stylesheet/UsersList.css';
 
-import {get_all_characters,get_individual_characters} from '../controller/superheroController';
-
 class UsersList extends Component{
   constructor(){
     super();

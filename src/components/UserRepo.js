@@ -5,7 +5,6 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import Loader from './Loader';
 import {fetIndividualUserData} from '../actions/userActions';
-import {get_all_characters,get_individual_characters} from '../controller/superheroController';
 import '../stylesheet/UserRepo.css';
 
 
